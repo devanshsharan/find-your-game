@@ -55,7 +55,7 @@ function App() {
 
       <GridItem area="main">
         <HStack justifyContent={showMyface ? "space-between" : ""}>
-          <Box paddingLeft={2} >
+          <Box paddingLeft={2}>
             <GameHeading gameQuery={gameQuery} />
             <Flex marginBottom={5}>
               <Box marginRight={5}>
@@ -76,7 +76,7 @@ function App() {
           </Box>
           {showMyface && <Myface />}
         </HStack>
-        <GameGrid gameQuery={gameQuery} />
+        <GameGrid  gameQuery={gameQuery} />
       </GridItem>
     </Grid>
   );
