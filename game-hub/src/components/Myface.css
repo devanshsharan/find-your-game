@@ -1,0 +1,33 @@
+.face-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    
+  }
+  
+  .face-image {
+    width: 150px;  
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #000; 
+    margin-right: 150px;
+  }
+  @media (max-width: 768px) { 
+    .face-image {
+      width: 120px; 
+      height: 120px;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 480px) { 
+    .face-image {
+      width: 100px;  
+      height: 100px;
+      margin-right: 0;
+      
+    }
+  }
+  
